@@ -108,14 +108,14 @@ It allows writing test steps in english and requires developers to implement the
 
 ```javascript
 const signUp = async () => {
-  await browser.url('/').click('//button[string()="Sign up"])
+  await browser.url('/').click('//button[string()="Sign up"]')
 
   const emailFieldID = await browser
     .getAttribute('//label[string()="Email"]', "for").then(r => r.value)
 
   await browser.setValue(`#${emailFieldID}`, 'testuser@example.com')
 
-  return browser.click('//button[string()="Submit"])
+  return browser.click('//button[string()="Submit"]')
 }
 ```
 
