@@ -3,6 +3,7 @@ autoscale: true
 
 # End-to-end Testing
 ## A lower cost approach explained
+### George Haidar (@ghaidar0)
 
 ---
 
